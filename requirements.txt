@@ -6,3 +6,5 @@ scikit-learn
 pycaret
 numpy
 joblib
+pgeocode
+xgboost
