@@ -321,7 +321,7 @@ def prediction_page(user_data: dict):
     # 2) Call the API when the user clicks the button
     if st.button("Get prediction", key="predict_button", use_container_width=True):
         try:
-            API_URL = "p01--immo-eliza-api--j9cqmtc6d89m.code.run/predict"  # adjust if different
+            API_URL = "https://p01--immo-eliza-api--j9cqmtc6d89m.code.run/predict"  # adjust if different
 
             response = requests.post(API_URL, json=payload, timeout=10)
 
