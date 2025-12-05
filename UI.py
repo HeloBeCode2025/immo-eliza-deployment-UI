@@ -288,7 +288,7 @@ def extra_page():
         if st.session_state[spec] == "Yes":
             st.session_state.property_data[spec] = 1.0
         else :
-            st.session_state[spec] = 0.0
+            st.session_state.property_data[spec] = 0.0
 
     st.session_state.property_data["garden_surface"] = st.session_state["garden_surface"]
     st.session_state.property_data["terrace_surface"] = st.session_state["terrace_surface"]
